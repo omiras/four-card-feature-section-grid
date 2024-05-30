@@ -118,6 +118,8 @@ body {
     /** Ejercicio 1. Muestra las tarjetas en 2 columnas y 2 filas usando Grid  */
     .cards {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
     }
 }
 
