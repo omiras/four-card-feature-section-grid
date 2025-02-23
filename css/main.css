@@ -45,6 +45,8 @@ body {
 
 .cards {
     margin: 7.5rem 8% 0;
+
+    /* Ejercicio 0: Crea una regla usando max-width adecuadamente para que todas las tarjetas no crezcan más de 375px de ancho */
 }
 
 .card-supervisor {
@@ -115,10 +117,10 @@ body {
         font-size: 1.4rem;
     }
 
-    /** Ejercicio 1. Muestra las tarjetas en 2 columnas y 2 filas usando Grid  */
+    /** Ejercicio 1. Muestra las tarjetas en 2 columnas y 2 filas usando Grid.   */
     .cards {
         display: grid;
     }
 }
 
-/** Ejercicio 2: Crea una nueva media query para que, cuando lleguemos como mínimo 1200px de viewport width, apliquemos cambiemos el grid a .card {} , con todas las propiedades necesarias para que se vea como en diseño.   */
+/** Ejercicio 2: Crea una nueva media query para que, cuando lleguemos como mínimo 1200px de viewport width, apliquemos cambiemos el grid a .card {} , con todas las propiedades necesarias para que se vea como en diseño final. Además, haz que todos los elementos del grid esten en el centro del cross axis  */
